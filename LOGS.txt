@@ -75,7 +75,7 @@ WebSocket connected.
 [ARB DETECTED - ASK] Cluster: il-04-house-election-winner | Theory: 0,9990 | Executable VWAP: 1,0002 (VWAP slippage)
 [ARB DETECTED - BID] Cluster: fed-decision-in-september-762 | Theory: 1,0170 | VWAP: 1,0170 | Fee: 0,0267 | AfterFees: NOT PROFITABLE (fee friction)
 
--Shutdown
+- Shutdown
 
 [SHUTDOWN] Waiting for 14 workers to flush to disk...
 Disk writer cleanly terminated for 772412
@@ -97,5 +97,3 @@ Disk writer cleanly terminated for 758951
 Process finished cleanly.
 
 Process finished with exit code 0.
-
--
