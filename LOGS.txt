@@ -1,0 +1,101 @@
+LOGS
+
+-Initialization
+
+Fetching initial market list...
+DEBUGGING RAW API RESPONSE:
+[{"id":"801410","ticker":"new-zealand-darts-masters-winner-20260730170139988","slug":"new-zealand-darts-masters-winner-20260730170139988","title":"New Zealand Darts Masters: Winner","description":"This market will resolve according to the winner of the 2026 SkyCity New Zealand Darts Masters, currently scheduled for August 14, 2026 to August 15, 2026.\n\nIf this tournament is postponed after August 29, 2026, 11:59 PM ET, canceled, or a winner has not been declared within this timeframe, this mark
+Started tracking: New Zealand Darts Masters: Winner (16 active YES outcomes)
+Started tracking: WA-05 House Election Winner (2 active YES outcomes)
+Started tracking: Tuva Gubernatorial Election Winner (5 active YES outcomes)
+Started tracking: Zambia National Assembly Election: Party Winner (4 active YES outcomes)
+Started tracking: Apóllon Lemesoú vs. SK Brann (3 active YES outcomes)
+Started tracking: Ceará SC vs. AA Ponte Preta (3 active YES outcomes)
+Started tracking: Largest private company end of August? (11 active YES outcomes)
+Started tracking: Greater Manchester Mayoral Election: Margin of Victory (7 active YES outcomes)
+Started tracking: FK Baltika Kaliningrad vs. FK Spartak Moskva (3 active YES outcomes)
+Started tracking: IL-04 House Election Winner (2 active YES outcomes)
+...
+[INIT INFO] Skipping Token 104676355177468644217775227350274799303670279272387484530449653741859520212975: No active order book.
+[INIT] Hydrated book for Outcome 12 in 801410.
+[INIT] Hydrated book for Outcome 9 in 801410.
+[INIT] Hydrated book for Outcome 2 in 801410.
+[INIT] Hydrated book for Outcome 3 in 801410.
+[INIT] Hydrated book for Outcome 7 in 801410.
+[INIT] Hydrated book for Outcome 5 in 801410.
+[INIT] Hydrated book for Outcome 0 in 801410.
+[INIT] Hydrated book for Outcome 13 in 801410.
+[INIT] Hydrated book for Outcome 1 in 801410.
+[INIT] Hydrated book for Outcome 4 in 801410.
+[INIT] Hydrated book for Outcome 0 in 745548.
+[INIT] Hydrated book for Outcome 1 in 191677.
+[INIT] Hydrated book for Outcome 4 in 745548.
+...
+WebSocket connected.
+[WS] Connected! Sending subscription...
+[WS] Sent Orderbook Subscription for 98 assets.
+[INIT] Hydrated book for Outcome 0 in 191498.
+...
+[DATA] First bid snapshot for 'col-al-bra-2026-08-11' (outcome 2, 5 levels)
+[DATA] First bid snapshot for 'swe-vas-dju-2026-08-10' (outcome 0, 19 levels)
+[DATA] First bid snapshot for 'md-05-house-election-winner' (outcome 0, 21 levels)
+[DATA] First bid snapshot for 'rus-bal-spa-2026-08-16' (outcome 0, 8 levels)
+[DATA] First bid snapshot for 'greater-manchester-mayoral-election-margin-of-victory-20260703224447578' (outcome 4, 0 levels)
+[DATA] First bid snapshot for 'wa-05-house-election-winner' (outcome 1, 19 levels)
+[DATA] First bid snapshot for 'isl1-haf-krr-2026-08-05-halftime-result' (outcome 0, 14 levels)
+[DATA] First ask snapshot for 'isl1-haf-krr-2026-08-05-halftime-result' (outcome 0, 15 levels)
+[DATA] First bid snapshot for 'az-01-house-election-winner' (outcome 0, 8 levels)
+[DATA] First ask snapshot for 'az-01-house-election-winner' (outcome 0, 11 levels)
+[DATA] First bid snapshot for 'tuva-gubernatorial-election-winner-20260724163413491' (outcome 1, 2 levels)
+[DATA] First bid snapshot for 'il-04-house-election-winner' (outcome 1, 33 levels)
+[DATA] First ask snapshot for 'greater-manchester-mayoral-election-margin-of-victory-20260703224447578' (outcome 4, 33 levels)
+[DATA] First ask snapshot for 'col-al-bra-2026-08-11' (outcome 2, 9 levels)
+[DATA] First ask snapshot for 'md-05-house-election-winner' (outcome 0, 35 levels)
+[DATA] First ask snapshot for 'swe-vas-dju-2026-08-10' (outcome 0, 28 levels)
+
+- Periodic math checks / manager state for all markets
+[STATUS] 22:43:07 | Total Arbs: 809
+[HOT] Most active this window: fifwc-esp-arg-2026-07-19 (10141) | fifwc-esp-arg-2026-07-19-exact-score (5700) | world-cup-winner (3380)
+[MATH CHECK] isl1-haf-krr-2026-08-05-halftime-result       | BidSum: 0,9800 | AskSum: 1,0200
+[MATH CHECK] tuva-gubernatorial-election-winner-20260724163413491 | BidSum: 0,9410 | AskSum: 1,0540
+[MATH CHECK] md-05-house-election-winner                   | BidSum: 0,9990 | AskSum: 1,0100
+[MATH CHECK] greater-manchester-mayoral-election-margin-of-victory-20260703224447578 | BidSum: 0,9410 | AskSum: null (warming up)
+[MATH CHECK] ucl-lep-agf-2026-07-29                        | BidSum: 0,9800 | AskSum: 1,0100
+[MATH CHECK] next-french-presidential-election             | BidSum: 0,8750 | AskSum: 1,3470
+[MATH CHECK] iran-leader-end-of-2026                       | BidSum: 0,9100 | AskSum: 1,3250
+[MATH CHECK] next-prime-minister-of-ethiopia               | BidSum: 0,9560 | AskSum: 1,0830
+[MATH CHECK] largest-company-end-of-july-20260624192302727 | BidSum: 1,0000 | AskSum: 1,0830
+[MATH CHECK] democratic-presidential-nominee-2028          | BidSum: 0,8140 | AskSum: 1,2860
+[MATH CHECK] presidential-election-winner-2028             | BidSum: 0,7890 | AskSum: 1,3360
+[MATH CHECK] fed-decision-in-july-181                      | BidSum: 0,9800 | AskSum: null (warming up)
+[MATH CHECK] ballon-dor-winner-2026                        | BidSum: 0,9530 | AskSum: 1,7190
+
+
+- Occasional detected theoretical top-of-the-book arbs
+[ARB DETECTED - ASK] Cluster: il-04-house-election-winner | Theory: 0,9990 | Executable VWAP: 1,0002 (VWAP slippage)
+[ARB DETECTED - BID] Cluster: fed-decision-in-september-762 | Theory: 1,0170 | VWAP: 1,0170 | Fee: 0,0267 | AfterFees: NOT PROFITABLE (fee friction)
+
+-Shutdown
+
+[SHUTDOWN] Waiting for 14 workers to flush to disk...
+Disk writer cleanly terminated for 772412
+Disk writer cleanly terminated for 818136
+Disk writer cleanly terminated for 819007
+Disk writer cleanly terminated for 791394
+WS Error: The operation was canceled.
+Disk writer cleanly terminated for 795455
+Disk writer cleanly terminated for 763159
+Disk writer cleanly terminated for 763158
+Disk writer cleanly terminated for 769386
+Disk writer cleanly terminated for 580965
+Disk writer cleanly terminated for 763160
+Disk writer cleanly terminated for 763161
+Disk writer cleanly terminated for 191610
+Disk writer cleanly terminated for 758954
+Disk writer cleanly terminated for 758951
+[SHUTDOWN] All workers terminated safely.
+Process finished cleanly.
+
+Process finished with exit code 0.
+
+-
