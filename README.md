@@ -87,7 +87,7 @@ This is exactly why the edge is depth-limited rather than cliff-limited: the Rep
 
 **Depth-limited size:** walking the full book from this snapshot, the position is profitable from approx. 10 contracts up through approx. 300, peaking around 200-220 contracts (approx. $195-213 notional) at approximately **$5.50 of locked-in profit**, then decays and turns negative past approx. 350-400 contracts as thinner price levels get consumed. This confirms the edge is real but small - capped by the actual resting liquidity on the book, not by the theoretical spread.
 
-**Risk, for completeness:** this is not risk-free capital. Beyond standard market risk, it carries platform/smart-contract risk, oracle/resolution dispute risk, and custody risk for the ~3 months until the Nov 3, 2026 resolution - none of which are priced into the raw spread.
+**Risk, for completeness:** this is not risk-free capital. Beyond standard market risk, it carries platform/smart-contract risk, oracle/resolution dispute risk, and custody risk for the ~month until the Nov 3, 2026 resolution - none of which are priced into the raw spread.
 
 ##### License
 
